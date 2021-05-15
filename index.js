@@ -6,7 +6,7 @@ function saturdayFun (activity = "roller-skate"){
 saturdayFun();
 
 function mondayWork(activity = "go to the office"){
-    return `This Monday, I Will Work from home.`
+    return `This Monday, I Will ${activity}`
 }
 
 mondayWork();
