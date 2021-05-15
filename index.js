@@ -12,7 +12,7 @@ function mondayWork(activity = "go to the office"){
 mondayWork();
 mondayWork("work from home");
 
-function wrapAdjective(){
+function wrapAdjective(style="*"){
     return function(adjective="special") {
     return `You are ${style}${adjective}${style}!`
   }
