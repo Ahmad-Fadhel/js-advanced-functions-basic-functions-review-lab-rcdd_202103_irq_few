@@ -5,4 +5,8 @@ function saturdayFun (activity = "roller-skate"){
 
 saturdayFun();
 
+function mondayWork(){
+  
+}
+
 
