@@ -5,8 +5,12 @@ function saturdayFun (activity = "roller-skate"){
 
 saturdayFun();
 
-function mondayWork(){
-  
+function mondayWork(activity = "go to the office"){
+    return `This monday, I want to ${activity}!`
 }
+
+mondayWork();
+
+
 
 
