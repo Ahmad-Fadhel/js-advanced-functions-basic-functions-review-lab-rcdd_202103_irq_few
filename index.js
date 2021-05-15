@@ -18,6 +18,43 @@ function wrapAdjective(style="*"){
   }
 }
 
+const Calculator = {
+  add: function(a,b) {
+    return a + b;
+  },
+  subtract: function(a,b) {
+    return a - b
+  },
+  multiply: function(a,b) {
+    return a * b
+  },
+  divide: function(a,b) {
+    return a / b;
+  }
+}
+
+function actionApplyer (start, aray) {
+  let a = start
+
+  for (let i = 0; i < aray.length; i++ ){
+    a = aray[i](a)
+  }
+
+  return a
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
