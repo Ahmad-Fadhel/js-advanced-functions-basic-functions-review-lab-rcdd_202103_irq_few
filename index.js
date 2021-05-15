@@ -13,7 +13,7 @@ mondayWork();
 mondayWork("work from home");
 
 function wrapAdjective(){
-  
+  function 
 }
 
 
