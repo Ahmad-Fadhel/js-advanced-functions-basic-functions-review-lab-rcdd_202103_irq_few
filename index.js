@@ -13,7 +13,9 @@ mondayWork();
 mondayWork("work from home");
 
 function wrapAdjective(){
-  function 
+    return function(adjective="special") {
+    return `You are ${style}${adjective}${style}!`
+  }
 }
 
 
