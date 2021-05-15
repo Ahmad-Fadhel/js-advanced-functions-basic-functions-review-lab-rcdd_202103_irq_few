@@ -9,9 +9,6 @@ function mondayWork(activity = "go to the office"){
     return `This Monday, I Will ${activity}.`
 }
 
-mondayWork();
-mondayWork("work from home");
-
 function wrapAdjective(style="*"){
     return function(adjective="special") {
     return `You are ${style}${adjective}${style}!`
